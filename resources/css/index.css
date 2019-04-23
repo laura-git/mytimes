@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: inline-flex;
+    color: mediumaquamarine;
+    margin: 20px 20px;
+    align-items: center;
+
+}
+
+.logo p {
+    padding: 0 10px;
+
+}
+
+.navigation {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.navigation span {
+    width: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 1232px;
+
+}
+
+.large {
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.tuna {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 630px;
+    display: flex;
+
+}
+
+.earth {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    display: flex;
+
+}
+
+.research {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    display: flex;
+
+}
+
+.largearticle {
+    width: 300px;
+}
+
+.medium {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+    .cats {
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 300px;
+        display: flex;
+
+}
+
+.heading {
+    font-family: Georgia;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainarticle, .largearticle, .earth, .research {
+    border: 1px solid black;
+
+}
+
+.article {
+    font-family: Georgia;
+    font-size: 17px;
+}
