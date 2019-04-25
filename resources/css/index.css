@@ -101,9 +101,20 @@
 
 .small {
     width: 240px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+
+
 }
 
-.cookie {
+.cookieimg {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
+    width: inherit;
+    height: 240px;
 
 }
 
